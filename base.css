@@ -1,0 +1,117 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #070707;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+    
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    
+}
+.menu {
+    width: 15%;
+    background-color: rgb(114, 117, 117);
+    padding: 10px 20px 0px;
+    
+}
+.menu li{
+    padding-top: 25px;
+
+    
+    
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    
+}
+.header img{
+    width: 100%;
+    height: 100%;
+    
+}
+.content {
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+    padding: 20px;
+    justify-content: center;
+    
+}
+
+.content .texto-content {
+    font-size:30px;
+}
+.content .content-agendamento {
+    font-style: oblique;
+    font-size: 22px;
+}
+    
+.footer {
+    background-color: rgb(114, 117, 117);
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer img {
+    width: 25px;
+    height: 25px;
+    padding-left: 30px;
+    padding-top: 70px;
+}
+
+.footer p {
+    padding-top: 40px;
+    padding-left: 6px;
+    font-size: 25px;
+}
+
+.table {
+    border: 0;
+    width: 600px;
+    align: center;
+
+}
+
+.table thead tr{
+    background-color: black;
+    color: white;   
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: gray;
+
+}
+ .table tbody {
+    text-align: center;
+ }
+
+
+.formulario {
+    width: 400px;
+    display: flex;
+    flex-direction: column;      
+    margin: 0;
+ }
+
+ .content-agen {
+    display: flex;
+    background-color: white;
+    padding-left: 20px;
+ }
+
+ .content-agen .iframe {
+    padding-left: 100px;
+ }
